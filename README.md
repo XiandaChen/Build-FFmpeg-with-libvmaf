@@ -40,5 +40,6 @@ https://websites.fraunhofer.de/video-dev/calculating-vmaf-and-psnr-with-ffmpeg/
 2. error while loading shared libraries: libvmaf.so \
     https://github.com/Netflix/vmaf/issues/528 \
     /usr/local/lib/libvmaf.so
+    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib   in ~/.bashrc for not exporting each time
 
 3. 
