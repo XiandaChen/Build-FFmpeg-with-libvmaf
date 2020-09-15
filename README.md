@@ -39,7 +39,7 @@ https://websites.fraunhofer.de/video-dev/calculating-vmaf-and-psnr-with-ffmpeg/
     2-2. https://blog.ducthinh.net/gcc-no-such-file-python-h/
 2. error while loading shared libraries: libvmaf.so \
     https://github.com/Netflix/vmaf/issues/528 \
-    /usr/local/lib/libvmaf.so
-    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib   in ~/.bashrc for not exporting each time
+    /usr/local/lib/libvmaf.so \
+    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib  \t in ~/.bashrc for not exporting each time
 
 3. 
